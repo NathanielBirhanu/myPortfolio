@@ -3,3 +3,9 @@
 // expect(element).toHaveTextContent(/react/i)
 // learn more: https://github.com/testing-library/jest-dom
 import '@testing-library/jest-dom';
+
+window.scrollTo = jest.fn();
+
+jest.mock('react-tsparticles', () => function Particles() {
+  return null;
+});

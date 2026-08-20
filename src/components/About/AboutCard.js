@@ -8,33 +8,39 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hi Everyone, I am <span className="purple">Natnael B. Regasa </span>
+            from <span className="purple">Addis Ababa, Ethiopia.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I am currently a Senior ERP Developer at ZERGAW CLOUD SERVICE
+            PROVIDER.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            Previously, I worked as an Odoo Developer at GraceERP Consultancy
+            PLC in Ethiopia.
+            <br />
+            I hold a Bachelor's degree in Computer Science from Hawassa
+            University, with additional training in Machine Learning through
+            Coursera and Software Engineering through Holberton School.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            The areas I work on most often include:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> ERP implementation and business process analysis
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Odoo custom module development
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> API integrations, data migration, and deployment
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Building ERP systems that make business workflows clearer,
+            faster, and easier to manage."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Natnael B. Regasa</footer>
         </blockquote>
       </Card.Body>
     </Card>

@@ -1,68 +1,48 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import { AiOutlineDeploymentUnit } from "react-icons/ai";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
+  SiJavascript,
+  SiNginx,
   SiPostgresql,
+  SiPython,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import {
+  TbApi,
+  TbCloudComputing,
+  TbDatabaseExport,
+  TbServerCog,
+} from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+      <Col xs={4} md={2} className="tech-icons" title="Odoo ERP">
+        <AiOutlineDeploymentUnit />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+      <Col xs={4} md={2} className="tech-icons" title="Python">
+        <SiPython />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+      <Col xs={4} md={2} className="tech-icons" title="JavaScript">
+        <SiJavascript />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+      <Col xs={4} md={2} className="tech-icons" title="REST APIs">
+        <TbApi />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+      <Col xs={4} md={2} className="tech-icons" title="API Integration">
+        <TbCloudComputing />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+      <Col xs={4} md={2} className="tech-icons" title="Data Migration">
+        <TbDatabaseExport />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="PostgreSQL">
         <SiPostgresql />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+      <Col xs={4} md={2} className="tech-icons" title="Nginx">
+        <SiNginx />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+      <Col xs={4} md={2} className="tech-icons" title="Server Optimization">
+        <TbServerCog />
       </Col>
     </Row>
   );
