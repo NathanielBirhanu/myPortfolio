@@ -9,7 +9,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Personalized by Natnael</h3>
+          <h3>Design inspired by Soumyajit</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} Natnael B. Regasa</h3>
@@ -18,7 +18,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/natnaelbirhanu1234/"
+                href="https://www.linkedin.com/in/natnael-birhanu1234"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"

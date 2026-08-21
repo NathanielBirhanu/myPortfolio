@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.jpg";
 import Tilt from "react-parallax-tilt";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -57,7 +57,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/natnaelbirhanu1234/"
+                  href="https://www.linkedin.com/in/natnael-birhanu1234"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
