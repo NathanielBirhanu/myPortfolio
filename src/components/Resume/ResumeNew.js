@@ -24,6 +24,7 @@ function ResumeNew() {
             variant="primary"
             href={pdf}
             target="_blank"
+            download="Natnael_B_Regasa_CV.pdf"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
@@ -37,11 +38,18 @@ function ResumeNew() {
           </Document>
         </Row>
 
+        <Row className="resume">
+          <Document file={pdf} className="d-flex justify-content-center">
+            <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} />
+          </Document>
+        </Row>
+
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
             href={pdf}
             target="_blank"
+            download="Natnael_B_Regasa_CV.pdf"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
